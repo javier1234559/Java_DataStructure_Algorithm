@@ -1,9 +1,6 @@
 package dsa.datastructure.array.ArrayBasicOperations;
 
-import dsa.datastructure.array.ArrayBasicOperations.sort.MergeSortAlgorithm;
-import dsa.datastructure.array.ArrayBasicOperations.sort.QuickSortAlgorithm;
-import dsa.datastructure.array.ArrayBasicOperations.sort.SelectionSortAlgorithm;
-import dsa.datastructure.array.ArrayBasicOperations.sort.SortAlgorithm;
+import dsa.datastructure.array.ArrayBasicOperations.sort.*;
 import dsa.datastructure.array.ArrayBasicOperations.sortedArray.SortedArray;
 import dsa.datastructure.array.ArrayBasicOperations.unsortedArray.UnsortedArray;
 import dsa.datastructure.array.ArrayBasicOperations.reverseArray.Reverse;
@@ -134,27 +131,20 @@ public class ArrayBasicOperations {
 //
 //        // Sắp xếp đếm (Counting Sort)
 //        SortAlgorithm countingSortAlgorithm = new CountingSortAlgorithm();
-//        countingSortAlgorithm.sort(arr);
+//        countingSortAlgorithm.sort(array);
 //
 //        // Sắp xếp trộn (Merge Sort)
 //        SortAlgorithm mergeSortAlgorithm = new MergeSortAlgorithm();
 //        mergeSortAlgorithm.sort(array);
 //
-        // Sắp xếp nhanh (Quick Sort)
-        SortAlgorithm quickSortAlgorithm = new QuickSortAlgorithm();
-        quickSortAlgorithm.sort(array);
+//        // Sắp xếp nhanh (Quick Sort)
+//        SortAlgorithm quickSortAlgorithm = new QuickSortAlgorithm();
+//        quickSortAlgorithm.sort(array);
 //
-//        // Sắp xếp vun đống (Heap Sort)
-//        SortAlgorithm heapSortAlgorithm = new HeapSortAlgorithm();
-//        heapSortAlgorithm.sort(arr);
-//
-//        // Sắp xếp tân trọng (Radix Sort)
-//        SortAlgorithm radixSortAlgorithm = new RadixSortAlgorithm();
-//        radixSortAlgorithm.sort(arr);
-//
-//        // Sắp xếp cái (Bucket Sort)
-//        SortAlgorithm bucketSortAlgorithm = new BucketSortAlgorithm();
-//        bucketSortAlgorithm.sort(arr);
+        // Sắp xếp tân trọng (Radix Sort)
+        SortAlgorithm radixSortAlgorithm = new RadixSortAlgorithm();
+        radixSortAlgorithm.sort(array);
+
 
     }
 
