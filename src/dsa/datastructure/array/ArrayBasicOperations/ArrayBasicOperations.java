@@ -2,6 +2,8 @@ package dsa.datastructure.array.ArrayBasicOperations;
 
 import dsa.datastructure.array.ArrayBasicOperations.sort.*;
 import dsa.datastructure.array.ArrayBasicOperations.sortedArray.SortedArray;
+import dsa.datastructure.array.ArrayBasicOperations.sub.SubArray;
+import dsa.datastructure.array.ArrayBasicOperations.sub.SubSequence;
 import dsa.datastructure.array.ArrayBasicOperations.unsortedArray.UnsortedArray;
 import dsa.datastructure.array.ArrayBasicOperations.reverseArray.Reverse;
 import dsa.datastructure.array.ArrayBasicOperations.reverseArray.ReverseAlgorithm;
@@ -55,12 +57,12 @@ public class ArrayBasicOperations {
 //        searchInsertDeleteSortedArray(sortedElement);
 //        System.out.println("Array after operations: " + Arrays.toString(array));
 //
-        System.out.println("6. Sort the Array");
-        sortArray();
-        System.out.println("Array after sorting: " + Arrays.toString(array));
-//
-//        System.out.println("7. Generate all Subarrays");
-//        generateAllSubarrays();
+//        System.out.println("6. Sort the Array");
+//        sortArray();
+//        System.out.println("Array after sorting: " + Arrays.toString(array));
+
+        System.out.println("7. Generate all Subarrays");
+        generateAllSubarrays();
 
         System.out.println("Exiting program...");
         Scanner scanner = new Scanner(System.in);
@@ -149,6 +151,11 @@ public class ArrayBasicOperations {
     }
 
     static void generateAllSubarrays() {
-        // TODO: Implement this method
+//        SubArray subArray = new SubArray(array);
+//        subArray.printAllSubArray();
+
+        SubSequence subSequence = new SubSequence(array);
+        subSequence.printAllSubSequence();
+
     }
 }
